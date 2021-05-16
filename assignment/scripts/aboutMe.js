@@ -78,7 +78,33 @@
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
-  
+  let mostPets;
+
+  if ( pets >= 3){
+    mostPets = 3
+  }
+
+  if (friendsPets > 3){
+    mostPets = 10
+  }
+  console.log(mostPets);
+
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+const expr = "3";
+
+switch (expr) {
+    case "1":
+      console.log( pets );
+      break;
+    case "2":
+      console.log( friendsPets );
+      break;
+    case "3":
+      console.log( mostPets );
+      break;
+    default:
+      console.log('What are pets?');
+
+  }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
